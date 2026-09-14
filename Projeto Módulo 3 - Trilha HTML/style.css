@@ -1,0 +1,106 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================
+   HEADER
+   ========================= */
+header {
+    height: 70px;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+header div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+header img {
+    width: 200px;
+}
+
+/* =========================
+   LAYOUT
+   ========================= */
+#layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+/* =========================
+   MENU LATERAL
+   ========================= */
+.sidebar {
+    border-right: 1px solid #cdcdcd;
+    padding: 30px;
+}
+.sidebar h2 {
+      font-size: 18px;
+}
+.sidebar a {
+    font-size: 13px;
+    color: #3366cc;
+    text-decoration: none;
+}
+
+/* =========================
+   ÍNDICE
+   ========================= */
+#anchors {
+    border-left: 1px solid #cdcdcd;
+    padding:  30px;
+}
+#anchors h1 {
+    font-size: 16px;
+    margin-top: 0;
+}
+#anchors a {
+    font-size: 13px;
+    color: #3366cc;
+    text-decoration: none;
+}
+#anchors ul {
+    list-style: none;
+    padding: 0;
+}
+#anchors li {
+    margin-bottom: 10px;
+}
+
+/* =========================
+   CONTEÚDO PRINCIPAL
+   ========================= */
+.content {
+    padding: 30px;
+}
+.content h1 {
+    font-size: 28px;
+    margin-top: 0;
+}
+.content h2 {
+    font-size: 20px;
+}
+.content p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202122;
+}
+#img-elenco {
+    text-align: center;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+.footer {
+    height: 100px;
+    border-top: 1px solid #cdcdcd;
+}
+
